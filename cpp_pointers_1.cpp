@@ -8,19 +8,10 @@ int main()
     
     int *p = &a;
     
-    cout << a << endl;
-    cout << &a << endl;
-    cout << *p << endl;
-    cout << *&p << endl;
+    cout << "Value of a using a: " << a << endl;
+    cout << "Address of a using a: " << &a << endl;
+    cout << "Value of a using p: " << *p << endl;
+    cout << "Address of a using p: " << *&p << endl;
     
-    //int *pp = &*p;
-    
-    //cout << *pp << endl;
-    //cout << &*pp << endl;
-    
-    //cout << &p << endl;
-    //cout << pp << endl; 
-    //cout << *pp << endl; 
-
     return 0;
 }
