@@ -1,4 +1,4 @@
-# cpp_pointers
+# cpp_pointers (incomplete)
 An exercise to explore pointers in C++
 
 1. Declare a variable "a" and initialize it with any value. Then create a pointer variable "p" containing the address of the variable "a". Print out in the console the value and address of the variable "a" using both variable "a" and pointer "p".
